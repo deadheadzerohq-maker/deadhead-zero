@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-dzBg text-white;
+}
+
+.gradient-ring {
+  background: radial-gradient(circle at center, rgba(56,189,248,0.2), transparent 60%);
+}
